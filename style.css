@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(210, 210, 210);
+    font-family: "Poppins", serif;
+    scroll-behavior: smooth;
+
+}
+
+
+/* Header */
+
+
+/* Nav Section */
+#logo {
+    cursor: default;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+
+.nav-container {
+    height: 17vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+   
+}
+
+.nav-container ul {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+    list-style: none;
+
+    /* LINKS */
+    a {
+        text-decoration: none;
+        color: rgb(71, 71, 71);
+
+
+    }
+
+    /* a:hover {
+
+        text-decoration: underline;
+        text-underline-offset: 0.7rem;
+
+    } */
+}
+.nav-container ul a:hover {
+
+    text-decoration: underline;
+    text-underline-offset: 0.7rem;
+
+}
+
+
+
+/* HERO SECTION */
+
+.profile {
+    padding-top: 4vh;
+    height: 96vh;
+    margin-top: 8rem;
+}
+
+
+/* profile content */
+
+.profile-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+/* profile photo */
+
+.profile-photo img {
+    height: 400px;
+    width: 400px;
+}
+
+/* text__btn__icon */
+
+.text__btn__icon {
+    margin-left: 6rem;
+}
+
+/* text-1 & text-2 class */
+
+.text-1 {
+    margin: 0.3rem 0;
+    font-weight: 500;
+    color: rgb(71, 71, 71);
+}
+
+.text-2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 0.5rem;
+    color: rgb(71, 71, 71);
+}
+
+/* Hero buttons */
+
+
+.text,
+.hero-btn {
+    text-align: center;
+}
+
+.hero-btn-1,
+.hero-btn-2 {
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+
+.hero-btn-1 {
+    border: 1px solid rgb(71, 71, 71);
+    background: rgb(210, 210, 210);
+    color: rgb(71, 71, 71);
+}
+
+.hero-btn-1:hover {
+    color: rgb(210, 210, 210);
+    background: rgb(71, 71, 71);
+    border: 1px solid rgb(210, 210, 210);
+}
+
+.hero-btn-2 {
+    background: rgb(71, 71, 71);
+    color: rgb(210, 210, 210);
+    border: 1px solid rgb(71, 71, 71);
+}
+
+.hero-btn-2:hover {
+    background: rgb(210, 210, 210);
+    color: rgb(71, 71, 71);
+
+}
+
+/* hero icons */
+
+.hero-icon {
+
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+
+    img {
+        width: 2rem;
+        cursor: pointer;
+    }
+}
